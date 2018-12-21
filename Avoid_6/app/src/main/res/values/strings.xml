@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Avoid</string>
+
+
+    <string name="needs_account_email_scope">이메일 제공 동의가 필요함</string>
+    <string name="needs_phone_number_scope">전화번호 제공 동의가 필요함</string>
+
+
+    <string name="com_kakao_profile_email">이메일</string>
+    <string name="com_kakao_profile_phone_number">전화번호</string>
+    <string name="com_kakao_profile_nickname">별명</string>
+    <string name="com_kakao_profile_age_range">연령대</string>
+    <string name="com_kakao_profile_birthday">생일</string>
+    <string name="com_kakao_profile_gender">성별</string>
+
+
+    <string name="kakaotalk_profile_button">프로필</string>
+    <string name="kakaotalk_country_label">국가코드</string>
+
+
+    <string name="text_send_to_me">나에게 보내기</string>
+
+    <string name="send_message">Send the message below?</string>
+
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

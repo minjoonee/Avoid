@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/accelerate_decelerate_interpolator">
+
+    <!-- 원래 아래 슬라이드 해볼랫는데 너무 맘에 안듬. 혹시몰라서 냅둠 -->
+    <translate
+        android:duration="@android:integer/config_longAnimTime"
+        android:fromYDelta="100%p"
+        android:toYDelta="0">
+    </translate>
+</set>

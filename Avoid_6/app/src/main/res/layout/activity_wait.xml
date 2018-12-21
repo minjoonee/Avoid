@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image"
+    tools:context=".WaitActivity">
+
+
+    <ImageButton
+        android:id="@+id/friendButton"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/friends" />
+
+    <ImageButton
+        android:id="@+id/RankButton"
+        style="@android:style/Widget.Holo.ImageButton"
+        android:layout_width="110dp"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="95dp"
+        android:src="@drawable/rank" />
+
+    <ImageButton
+        android:id="@+id/GameButton"
+        style="@android:style/Widget.Holo.ImageButton"
+        android:layout_width="110dp"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="182dp"
+        android:src="@drawable/start" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="126dp"
+        android:src="@drawable/avoid_white_logo" />
+
+    <Button
+        android:id="@+id/MusicButton"
+        android:background="#00ff0000"
+        android:layout_width="110dp"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/rank"
+        android:text="음악끄기"
+        android:textColor="#ffffff"/>
+
+</RelativeLayout>
